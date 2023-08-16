@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Font Script Copied From Fontawesom.com -->
+    <script src="https://kit.fontawesome.com/2a9ee08b3c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ---------------------MAIN HOME SECTION-------------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/logo8.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>  
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- Cancel Icon -->
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <!-- Menu Icon -->
+                <i class="fa-solid fa-ellipsis" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>I'm <span>Ahmed</span>, <br></h1>
+                <span id="element"></span>
+                <p>Based in Lahore,PK</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------ABOUT SECTION-------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/WhatsApp Image 2023-02-15 at 8.36.54 PM.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Ahmad Nazeer. I completed my F.Sc Pre-Engineering from MTB College in 2014 and obtained a
+                        Bachelor's degree in Information Technology from Bahria University in 2020.
+                        Additionally, I am currently learning a lot about HTML, CSS, and JavaScript on
+                        my own and have dedicated significant time to practice, honing my web development skills.
+                        I am also beginning to familiarize myself with the REACT framework, and while
+                        my knowledge is limited at the moment, I am confident in my ability to acquire this skill in the near future.
+                        Moreover, I am a professional trader with a track record of achieving funded
+                        accounts from esteemed firms such as FTMO, FundedNext, and MyForexFunds.
+                        Furthermore, I hold several certifications, which I have listed below.
+                        Apart from my professional endeavors, I find joy and personal growth in various hobbies.
+                        I enjoy keeping an eye on financial markets and economic trends.
+                        Playing games offers me relaxation and entertainment during my leisure time.
+                        Additionally, I like to expand my knowledge by watching informative podcasts on
+                        diverse subjects, which broadens my horizons and enhances my skills.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+
+                    </div>   
+                    <!-- For Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Developer</span><br>Web App Developer</li>
+                            <li><span>UI/UX</span><br>Design Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <!-- For Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor's</span><br>Information Technology<br>2016-2020</li>
+                            <li><span>F.Sc Pre-Engineering</span><br>MTB College Boys <br>2014-2016</li>
+                            <li><span>Matriculation</span><br>MTB School Boys <br>2012-2014</li>
+
+                        </ul>
+                    </div>
+                    <!-- For Certifications -->
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Foundations: Data, Data, Everywhere:</span>
+                                <br>
+                                <a href="/Certification Pdf's/1- Foundations Data Data Everywhere.pdf" target="_blank">
+                                    <button class="btn3">Link</button></a>
+                            </li>
+                            <li><span>Ask Questions to Make Data-Driven Decisions:</span>
+                                <br>
+                                <a href="/Certification Pdf's/2- Ask Questions to Make Data-Driven Decisions.pdf" target="_blank">
+                                    <button class="btn3">Link</button></a>
+                            </li>
+                            <li><span>Prepare Data for Exploration:</span>
+                                <br>
+                                <a href="/Certification Pdf's/3- Prepare Data for Exploration.pdf" target="_blank">
+                                    <button class="btn3">Link</button></a>
+                            </li>
+                            <li><span>Process Data from Dirty to Clean:</span>
+                                <br>
+                                <a href="./Certification Pdf's/4- Process Data from Dirty to Clean.pdf" target="_blank">
+                                    <button class="btn3">Link</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------Services Code---------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- Icon Code Copied From Web -->
+                    <i class="fa-solid fa-code"></i>
+                     <!-- ----------------------------- -->
+                    <h2>Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae culpa atque, cum est eos blanditiis a exercitationem laboriosam excepturi harum optio dolorem ea itaque omnis dolorum autem necessitatibus at pariatur?
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <!-- Icon Code Copied From Web -->
+                    <i class="fa-solid fa-crop"></i>
+                    <!-- ----------------------------- -->
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae culpa atque, cum est eos blanditiis a exercitationem laboriosam excepturi harum optio dolorem ea itaque omnis dolorum autem necessitatibus at pariatur?
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------Porfolio Code---------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Images/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum voluptas odit aperiam minima.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Devlopment</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum voluptas odit aperiam minima.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Analytics</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum voluptas odit aperiam minima.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -----------------------Contact Me Code---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- -------------------Contact Left------------------- -->
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-phone"></i></i>03049373413</p>
+                    <!-- Icons Showing In Contact Me Page -->
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ahmad10888l/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ahmadnazir_87/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ahmad-nazir-b741661a5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://t.me/+923049373413" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://github.com/AhmadNazir7" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:ahmadnazir19470@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+
+                    </div>
+                    <!-- -------------------------------------------- -->
+                    <a href="/CV/CV_Ahmed Nazeer.pdf" class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                 <!-- -------------------Contact Right------------------- -->
+                <div class="contact-rigth">
+                    <form action="https://formspree.io/f/mqkvpgpw" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="emial" name="Email" placeholder="Enter your Email" required>
+
+                        <!-- <input type="hidden" name="_next" value="https://phenomenal-sprite-1d36e3.netlify.app/thankyou.html"> -->
+
+                        <textarea name="Message" rows="10" placeholder="Type your message here" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy 2023- All Rights Reserved.</p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Type Js for Animation -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script src="/JavaScript/index.js"></script>
+</body>
+
+</html>
